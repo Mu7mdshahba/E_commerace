@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.coursel {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    background-color: honeydew;
+    font-size: 2rem;
+    z-index: 22;
+    cursor: pointer;
+}
+
+.next {
+    right: 0;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    object-fit: cover;
+    /* opacity: .2; */
+    inset: 0;
+}
+
+.slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
